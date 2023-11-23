@@ -33,4 +33,3 @@ formulario.addEventListener('submit',(e)=>{
     }
     
 })
-console.log(btnIniciar)
