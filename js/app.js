@@ -9,7 +9,7 @@ formulario.addEventListener('submit',(e)=>{
     {
         btnIniciar.innerText = "Enviar"
         input.disabled = false
-        numero = Math.trunc(Math.random()*10)+1
+        numero = Math.trunc(Math.random()*100)+1
         console.log(numero)
         input.focus()
         alert(`
